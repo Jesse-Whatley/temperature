@@ -1,0 +1,11 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol li{
+    background-color: #dedede;
+    width: 50%;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+

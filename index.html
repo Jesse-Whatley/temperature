@@ -11,7 +11,7 @@
 
     <h2>Hello World</h2>
     <script>
-        alert("Hello World!!");
+       // alert("Hello World!!");
     </script>
 
     <h2>Variables</h2>
@@ -30,7 +30,76 @@
         let num1=20;
         let num2=10;
 
+        // math operators: + / * -
+
         document.write(num1 + num2);
+    </script>
+
+    <h2>Logical Operators-Relational Operators</h2>
+    <script>
+        // == < > <= >= !=  logical
+        // AND&& OR|| NOT! relational
+
+        let comparison1 = (10 == 10) && (5 == 6);//false
+        let comparison2 = (10 == 10) || (5 == 6);//true
+        document.write(comparison1);
+    </script>
+
+    <h2>Reading and Writing</h2>
+    <script>
+       // let userName= prompt("Enter your name");
+      //  document.write(userName);
+
+       // if(userName==="Jesse"){
+        //    document.write("Yes,the condition is true")
+       // }else{
+        //    document.write("This is a invalid" + userName)
+        //}
+    </script>
+
+    <h2>If-Else Statement</h2>
+    <script>
+        if(5>4){
+            document.write("Yes,the condition is true")
+        }else{
+            document.write("The condition is false")
+        }
+
+        let op = prompt("Enter an option 1)Hello option 2)GoodBye")
+        if(op=="1"){
+            console.log("Hello")
+        }
+        if{op=="2"}{
+            console.log("Goodbye")2
+        }
+    </script>
+
+    <h2>In class assignment</h2>
+    <script>
+        let user = "Addy"
+        let age= "6"
+        let email = "Addy@gmail.com"
+        let password = "test1234"
+        let country = "USA"
+        let salary = "10000"
+
+        //document.write("<p>Name: " + user + "</p><p>Email: " + email + "</p><p>Salary(yearly):" + salary*12 + "</p>");
+
+        document.write(`
+            <p>Name: ${name}</p>
+            <p>Email: ${email}</p>
+            <p>Salary: ${salary * 12}</p>
+        `)
+    </script>
+
+    <h2>In Class assignment 2</h2>
+    <script>
+        let birthYear = 1991
+        let futureYear = 2055
+        let myAge = futureYear - birthYear
+
+        document.write(`I will be either ${myAge-1} or ${myAge} in ${futureYear}`);
+
     </script>
 </body>
 </html>
