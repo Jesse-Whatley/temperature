@@ -1,0 +1,30 @@
+/*global*/
+*{
+    margin: 0;
+}
+
+body{
+    font-family: "fredoka";
+}
+
+/*utilities*/
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    width: 50%;
+}
+
+.container h1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-container{
+
+}
+
+.convert-btn{
+    background-color: green;
+    color: white;
+}

@@ -28,7 +28,7 @@ function practice(){
 function getYourLicence(){
     let age = prompt("Enter your age: ");
     if(age >= 18){
-        document.write(alert("congradaulations"));
+        document.write(alert("Congradaulations"));
     }else {
         document.write(alert("Sorry you are to young"));
     }
@@ -47,6 +47,9 @@ function guessNumber(){
 }
 
 function login() {
+    let username = "jessephillips21";
+    let password = "test123"
+
     let usernameInput = prompt("Enter your username:");
     let passwordInput = prompt("Enter you password:");
 
