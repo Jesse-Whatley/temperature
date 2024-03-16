@@ -12,16 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: grey;
-    width: 50%;
-}
-
-.container h1{
-    display: flex;
-    justify-content: space-around;
-}
-
-.flex-container{
-
+    width: 75%;
 }
 
 .convert-btn{
